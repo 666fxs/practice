@@ -13,5 +13,6 @@ int main()
 	//ListPop_back(&list);
 	Print(&list);
 	system("pause");
+	//ÎÒÊÇÖí
 	return 0;
 }
