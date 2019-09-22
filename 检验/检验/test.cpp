@@ -70,34 +70,34 @@ using namespace std;
 
 //µ¹ÖÃ×Ö·û´®
 
-#include<string>
-#include<algorithm> 
-int main()
-{
-	string s;
-	getline(cin, s);
-	reverse(s.begin(), s.end());
-	auto start = s.begin();
-
-	while (start != s.end())
-	{
-		auto end = start;
-		while(end != s.end()&& *end != ' ')
-		{
-			end++;
-		}
-		reverse(start, end);
-		
-		if (end == s.end())
-		{
-			start = end;
-		}
-		else{
-			end++;
-			start = end;
-		}
-	}
-	cout << s << endl;
-	system("pause");
-	return 0;
-}
+//#include<string>
+//#include<algorithm> 
+//int main()
+//{
+//	string s;
+//	getline(cin, s);
+//	reverse(s.begin(), s.end());
+//	auto start = s.begin();
+//
+//	while (start != s.end())
+//	{
+//		auto end = start;
+//		while(end != s.end()&& *end != ' ')
+//		{
+//			end++;
+//		}
+//		reverse(start, end);
+//		
+//		if (end == s.end())
+//		{
+//			start = end;
+//		}
+//		else{
+//			end++;
+//			start = end;
+//		}
+//	}
+//	cout << s << endl;
+//	system("pause");
+//	return 0;
+//}
