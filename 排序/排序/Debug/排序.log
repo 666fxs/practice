@@ -1,0 +1,38 @@
+﻿生成启动时间为 2019/8/21 20:22:03。
+     1>项目“C:\Users\傅小帅\documents\visual studio 2013\Projects\排序\排序\排序.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+     1>c:\users\傅小帅\documents\visual studio 2013\projects\排序\排序\test.cpp(94): error C2679: 二进制“<<”: 没有找到接受“void”类型的右操作数的运算符(或没有可接受的转换)
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(498): 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(478): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(458): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(438): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(418): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(397): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(377): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(356): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(336): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(316): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(291): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(271): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(237): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(217): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::_Bool)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(210): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(203): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(197): 或       “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(1026): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const std::error_code &)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(978): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,unsigned char)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(971): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const unsigned char *)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(964): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,signed char)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(957): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const signed char *)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(831): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(784): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(746): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,char)”
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\ostream(699): 或       “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const char *)”
+                 尝试匹配参数列表“(std::ostream, void)”时
+     1>已完成生成项目“C:\Users\傅小帅\documents\visual studio 2013\Projects\排序\排序\排序.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.41
