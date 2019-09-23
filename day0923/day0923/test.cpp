@@ -64,26 +64,40 @@
 //}
 
 
+//#include<iostream>
+//#include<vector>
+//using namespace std;
+//int main()
+//{
+//	int count = 0;
+//	int n = 0;
+//	cin >> n;
+//	vector<int> v1(n);
+//	for (int i = 0; i<n; i++)
+//	{
+//		cin >> v1[i];
+//	}
+//	for (int j = 0; j<n; j++)
+//	{
+//		if (v1[j] >= n / 2)
+//		{
+//			count++;
+//		}
+//	}
+//	cout << count << endl;
+//	return 0;
+//}
+
 #include<iostream>
-#include<vector>
+#include <vector>
+#include <iostream>
+#include <algorithm> 
 using namespace std;
-int main()
-{
-	int count = 0;
-	int n = 0;
-	cin >> n;
-	vector<int> v1(n);
-	for (int i = 0; i<n; i++)
-	{
-		cin >> v1[i];
-	}
-	for (int j = 0; j<n; j++)
-	{
-		if (v1[j] >= n / 2)
-		{
-			count++;
-		}
-	}
-	cout << count << endl;
+int main() {
+	int n; vector <int> vec;
+	while (cin >> n)
+		vec.push_back(n);
+	sort(vec.begin(), vec.end());
+	cout << vec[vec.size() / 2 - 1] << endl;
 	return 0;
 }
