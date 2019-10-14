@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29409.12
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "虚基表", "虚基表\虚基表.vcxproj", "{451D149F-5905-4C90-BDA1-4AE12C45983A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Debug|x64.ActiveCfg = Debug|x64
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Debug|x64.Build.0 = Debug|x64
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Debug|x86.ActiveCfg = Debug|Win32
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Debug|x86.Build.0 = Debug|Win32
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Release|x64.ActiveCfg = Release|x64
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Release|x64.Build.0 = Release|x64
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Release|x86.ActiveCfg = Release|Win32
+		{451D149F-5905-4C90-BDA1-4AE12C45983A}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7343D9F-B562-4ABA-AEE6-203CBDAF8AB7}
+	EndGlobalSection
+EndGlobal
